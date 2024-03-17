@@ -1,3 +1,12 @@
+import React from "react";
+import Hero from "@/components/hero";
+
 export default function ReliabilityPage() {
-  return <h1>Reliability Page</h1>;
+  return (
+    <Hero
+      src="/reliability.jpg"
+      alt="Welding"
+      title="Super high reliablity hosting."
+    ></Hero>
+  );
 }
